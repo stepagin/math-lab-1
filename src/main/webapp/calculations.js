@@ -28,7 +28,7 @@ function calcIntegralSum(matrix) {
             s += calcValue(x, y) * matrix[i][j];
         }
     }
-    return s * (dx * dy / graphSize ** 2) + calcErrorRate(matrix)/3;
+    return s * (dx * dy / graphSize ** 2);
 }
 
 export function calcErrorRate(matrix) {

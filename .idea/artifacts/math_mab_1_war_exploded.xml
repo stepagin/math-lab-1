@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="math-mab-1" />
+          <element id="module-output" name="math-lab-1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
