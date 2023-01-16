@@ -21,11 +21,11 @@ function calcIntegralSum(matrix) {
     let s = 0;
     for(let i = 0; i < graphSize; i++) {
         for(let j = 0; j < graphSize; j++) {
-            // if (matrix[i][j] == 0)
-            //     continue;
+            if (matrix[i][j] === 0)
+                continue;
             let x = j * dx / graphSize + xMin;
             let y = (graphSize -  i - 1) * dy / graphSize + yMin;
-            s += calcValue(x, y) //* matrix[i][j];
+            s += calcValue(x, y) * matrix[i][j];
         }
     }
     return s * (dx * dy / graphSize ** 2) + calcErrorRate(matrix)/3;
