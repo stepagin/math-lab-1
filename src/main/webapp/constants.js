@@ -1,0 +1,12 @@
+export const backgroundFigColor = "rgb(248, 248, 248)";
+export const figColor = "rgb(116,101,248)";
+export const figOutlineColor = "rgb(34,25,129)";
+export const lineColor = "rgb(0,0,0)";
+export const gridColor = "rgba(215,215,215,0.3)"
+export const textColor = "rgb(0, 0, 0)";
+export const cursorColor = "rgba(0,0,0,0.67)";
+export const cursorSize = 3;
+export const xMin = -4;
+export const xMax = 90;
+export const yMin = -51;
+export const yMax = 89;

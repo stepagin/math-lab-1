@@ -1,0 +1,50 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="ITMO 3 sem laboratory work Math 1">
+    <meta name="keywords" content="ITMO, lab, math">
+    <meta name="author" content="Ponamarev Stepan">
+    <title>Math Lab 1</title>
+    <link rel="stylesheet" href="./main.css" type="text/css">
+<%--    <link rel="icon" href="./favicon.ico">--%>
+</head>
+
+<body>
+<table>
+    <tr id="header" class="gradient">
+        <td id="name"  class="shadow">
+            <h1>Понамарев Степан</h1>
+            <h2>
+                Лабораторная работа по математическому анализу №1
+            </h2>
+        </td>
+    </tr>
+</table>
+<div id="graph-style">
+    <canvas id="mycanvas">обновите браузер</canvas>
+</div>
+
+<div id="results-table">
+    <table>
+        <tr>
+            <td>Результат вычисления:</td>
+            <td id="result">0</td>
+        </tr>
+        <tr>
+            <td>Погрешность:</td>
+            <td id="error-rate">0</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="clear" value="Очистить плоскость">
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
